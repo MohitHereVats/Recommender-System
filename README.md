@@ -9,10 +9,3 @@ The matrix R is an binary-valued indicator matrix, where R(i,j) = 1 if user j ga
 The objective of collaborative filtering is to predict movie ratings for the movies that users have not yet rated, that is, the entries with R(i,j) = 0.
 This will allow us to recommend the movies with the highest predicted ratings to the user.
 
-How it works?
-
-Step 1: Modify 'recommender' script to input your own ratings against different movies.
-
-Step 2: Run 'recommender' script in your Octave/Matlab command window.
-
-Step 3: This run 100 iterations, first to train & then outputs the movies best suited for you (recommended).
