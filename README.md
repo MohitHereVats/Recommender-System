@@ -9,3 +9,5 @@ The matrix R is an binary-valued indicator matrix, where R(i,j) = 1 if user j ga
 The objective of collaborative filtering is to predict movie ratings for the movies that users have not yet rated, that is, the entries with R(i,j) = 0.
 This will allow us to recommend the movies with the highest predicted ratings to the user.
 
+And after rating all the movies, when a particular user likes  an item the find some other related items to it and then you can
+recommend these items to the user.
